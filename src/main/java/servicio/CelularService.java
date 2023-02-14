@@ -5,18 +5,16 @@
 package servicio;
 
 import java.util.List;
-import modelo.Clase;
+import modelo.Celular;
 
 /**
  *
  * @author sebas
  */
-public interface Service {
-    
-    
-    public void crear(Clase clase);
-    public List<Clase> listar();
-    
+public interface CelularService {
+
+    public void crear(Celular celular);
+
+    public List<Celular> listar();
+
 }
-
-
